@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btn_go2crash_natvie_currentthread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="natviecrash(当前线程)"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_go2crash_natvie_subthread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="natviecrash(子线程)"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_coffee_catcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffe_catch(捕捉natvie crash)"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
